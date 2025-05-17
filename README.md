@@ -1,2 +1,2 @@
 # Echo Watchdog
-**Echo Watchdog** is the Linux shell that echos the user's input until it detects 3-second idle time, which has no user input.
+**Echo Watchdog** is the Linux shell that echos the user's input. It terminates if it does not detect any user input or the user does not type anything (if he is `root`).
