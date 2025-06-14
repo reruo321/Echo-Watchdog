@@ -3,3 +3,5 @@
 
 ## Technical Stacks
 * Mutex
+* sig_atomic_t
+* Cleaner
