@@ -3,5 +3,5 @@
 
 ## Technical Stacks
 * Mutex (`pthread_mutex_t`)
-* sig_atomic_t
+* sig_atomic_t: Read/Write atomically.
 * Cleaner
