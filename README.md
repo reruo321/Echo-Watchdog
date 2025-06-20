@@ -3,5 +3,5 @@
 
 ## Technical Stacks
 * Mutex (`pthread_mutex_t`)
-* sig_atomic_t: Read/Write atomically.
+* `sig_atomic_t`: The data type to read/Write atomically.
 * Thread Cancelation Cleaner
