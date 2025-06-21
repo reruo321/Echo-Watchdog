@@ -3,5 +3,5 @@
 
 ## Technical Stacks
 * Mutex (`pthread_mutex_t`)
-* `sig_atomic_t`: The data type to read/Write atomically.
+* Atomic Integer Type (`sig_atomic_t`): An integer type which can be accessed as an atomic entity even in the presence of asynchronous interrupts made by signals.
 * Thread Cancelation Cleaner
