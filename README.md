@@ -1,5 +1,5 @@
 # Echo Watchdog
-**Echo Watchdog** is the Linux shell application that echos user's any input text. It terminates after three seconds if it does not detect any user input, or the user does not type anything (if the user is `root`).
+**Echo Watchdog** is the Linux shell application that echos user's any input text. It terminates after three seconds if it does not detect any user's input, or the user does not type anything (Only if the user is `root`).
 
 ## Technical Stacks
 * Mutex (`pthread_mutex_t`): An algorithm to avoid race condition in a multithread process.
