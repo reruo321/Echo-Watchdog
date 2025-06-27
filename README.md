@@ -4,4 +4,4 @@
 ## Technical Stacks
 * Mutex (`pthread_mutex_t`): An algorithm to avoid race condition in a multithread process.
 * Atomic Integer Type (`sig_atomic_t`): An integer type which can be accessed as an atomic entity even in the presence of asynchronous interrupts made by signals.
-* Thread Cancelation Cleaner
+* Thread Cancelation Cleaner: It works like a stack which pushes and pops specific actions.
