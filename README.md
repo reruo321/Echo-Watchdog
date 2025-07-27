@@ -2,7 +2,7 @@
 **Echo Watchdog** is the Linux shell application that echos user's input text.
 It can detect both user's input text and user's key presses.
 The latter works only if the user is `root`, since the key press detection needs the system file access priviledges.
-It terminates after three seconds if it does not detect any user's key actions.
+The program terminates after three seconds if it does not detect any user's key actions.
 
 ## Technical Skills
 * Mutex (`pthread_mutex_t`): A synchronization mechanism to avoid any race conditions for a multithread process. It uses lock-and-unlock mechanism for specific statements.
