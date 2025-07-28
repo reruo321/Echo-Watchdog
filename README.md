@@ -1,7 +1,7 @@
 # Echo Watchdog
 **Echo Watchdog** is the Linux shell application that echos user's input text.
 It can detect both user's input text and user's key presses.
-The latter works only if the user is `root`, since the key press detection needs the system file access priviledges.
+The latter works only if the user is `root`, since the key press detection needs the system file access priviledges by the `root`.
 The program terminates after three seconds if it does not detect any user's key actions.
 
 ## Technical Skills
