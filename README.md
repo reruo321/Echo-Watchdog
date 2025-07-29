@@ -10,3 +10,4 @@ The program terminates after three seconds if it does not detect any user's key 
 * Thread Cancelation Cleaner: It works like a stack which pushes and pops specific actions. It is used to perform any actions that need to be done when the thread is terminated, but actually fail to do because of the early thread cancelation.
 
 ## Synchronization
+### Mutex
