@@ -11,6 +11,7 @@ The program terminates after three seconds if it does not detect any user's key 
 
 ## Synchronization Techniques
 ### Mutex
+`pthread_mutext_`
 
 ### `sig_atomic_t`
 
