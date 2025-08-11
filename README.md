@@ -16,6 +16,7 @@ The program terminates after three seconds if it does not detect any user's key 
 ### `sig_atomic_t`
 
 ### Thread Calcelation Cleaner
+Thread cancelation cleaner works like a stack that pushes and pops specific actions.
 #### `pthread_cleanup_push`
 Pushes `routine` onto the top of the stack of clean-up handlers.
 
