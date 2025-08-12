@@ -4,6 +4,13 @@ It can detect both user's input text and user's key presses.
 The latter works only if the user is `root`, since the key press detection needs the system file access priviledges by the `root`.
 The program terminates after three seconds if it does not detect any user's key actions.
 
+## Structure
+Echo Watchdog
+├── Makefile             # 
+├── ewdshell.c           #
+├── ewdshell.h           #
+└── main.c               # 
+
 ## Technical Skills
 * Mutex (`pthread_mutex_t`): A synchronization mechanism to avoid any race conditions for a multithread process. It uses lock-and-unlock mechanism for specific statements.
 * Atomic Integer Type (`sig_atomic_t`): An integer type which can be accessed as an atomic entity even in the presence of asynchronous interrupts made by signals.
