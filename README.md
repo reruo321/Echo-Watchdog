@@ -7,7 +7,7 @@ The program terminates after three seconds if it does not detect any user's key 
 ## Structure
 Echo Watchdog
 ├── Makefile             # Makefile for the application EchoWatchdog 
-├── ewdshell.c           # 
+├── ewdshell.c           # C source for ewdshell
 ├── ewdshell.h           #
 └── main.c               # 
 
