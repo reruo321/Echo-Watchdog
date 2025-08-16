@@ -9,7 +9,7 @@ Echo Watchdog
 ├── Makefile             # Makefile for the application EchoWatchdog 
 ├── ewdshell.c           # C source for ewdshell
 ├── ewdshell.h           # C header for ewdshell
-└── main.c               # 
+└── main.c               # Main source
 
 ## Technical Skills
 * Mutex (`pthread_mutex_t`): A synchronization mechanism to avoid any race conditions for a multithread process. It uses lock-and-unlock mechanism for specific statements.
