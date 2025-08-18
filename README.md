@@ -13,18 +13,19 @@ Echo Watchdog
 └── main.c               # Main source
 ```
 ## Technical Skills
-* Mutex (`pthread_mutex_t`): A synchronization mechanism to avoid any race conditions for a multithread process. It uses lock-and-unlock mechanism for specific statements.
-* Atomic Integer Type (`sig_atomic_t`): An integer type which can be accessed as an atomic entity even in the presence of asynchronous interrupts made by signals.
-* Thread Cancelation Cleaner: It works like a stack which pushes and pops specific actions. It is used to perform any actions that need to be done when the thread is terminated, but actually fail to do because of the early thread cancelation.
-
 ## Synchronization Techniques
 ### Mutex
 `pthread_mutex_t`
+* Mutex (`pthread_mutex_t`): A synchronization mechanism to avoid any race conditions for a multithread process. It uses lock-and-unlock mechanism for specific statements.
 
 ### `sig_atomic_t`
+* Atomic Integer Type (`sig_atomic_t`): An integer type which can be accessed as an atomic entity even in the presence of asynchronous interrupts made by signals.
 
 ### Thread Calcelation Cleaner
 Thread cancelation cleaner works like a stack that pushes and pops specific actions.
+
+* Thread Cancelation Cleaner: It works like a stack which pushes and pops specific actions. It is used to perform any actions that need to be done when the thread is terminated, but actually fail to do because of the early thread cancelation.
+
 #### `pthread_cleanup_push`
 Pushes `routine` onto the top of the stack of clean-up handlers.
 
