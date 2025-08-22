@@ -26,8 +26,8 @@ Atomic Integer Type (`sig_atomic_t`) is an integer type which can be accessed as
 Thread cancelation cleaner works like a stack that pushes and pops specific actions.
 It is used to perform any actions that need to be done when the thread is terminated, but actually fail to do because of the early thread cancelation.
 
-#### `pthread_cleanup_push`
+##### `pthread_cleanup_push`
 Pushes `routine` onto the top of the stack of clean-up handlers.
 
-#### `pthread_cleanup_pop`
-Optionally executes if the argument is nonzero.
+##### `pthread_cleanup_pop`
+Pops the top `routine` and optionally executes if the argument is nonzero.
