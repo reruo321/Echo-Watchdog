@@ -14,7 +14,7 @@ Echo Watchdog
 ```
 
 ## Technical Skills
-### Synchronization Techniques
+### Synchronization
 #### Mutex
 **Mutex** (`pthread_mutex_t`) is a synchronization mechanism to avoid any race conditions for a multithread process.
 It uses lock-and-unlock mechanism for specific statements.
@@ -31,3 +31,5 @@ Pushes `routine` onto the top of the stack of clean-up handlers.
 
 ##### `pthread_cleanup_pop`
 Pops `routine` and optionally executes if the argument is nonzero.
+
+### Key Input Detection
