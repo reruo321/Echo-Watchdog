@@ -24,12 +24,13 @@ It uses lock-and-unlock mechanism for specific statements.
 
 #### Thread Calcelation Cleaner
 **Thread cancelation cleaner** works like a stack that pushes and pops specific actions.
-It is used to perform any actions that need to be done when the thread is terminated, but actually fail to do because of the early thread cancelation.
+It is used to perform any actions that need to be done when the thread is terminated, but actually it fails to do because of the early thread cancelation.
 
 ##### `pthread_cleanup_push`
 Pushes `routine` onto the top of the stack of clean-up handlers.
 
 ##### `pthread_cleanup_pop`
-Pops `routine` and optionally executes if the argument is nonzero.
+Pops `routine` and optionally executes it if the argument is nonzero.
 
 ### Key Input Detection
+
