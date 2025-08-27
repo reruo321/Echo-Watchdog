@@ -34,4 +34,8 @@ Pops `routine` and optionally executes it if the argument is nonzero.
 
 ### Key Input Detection
 #### User Text Input
+```
+fgets(input_line, MAX_LEN + 1, stdin)
+```
+
 #### User Key Press
