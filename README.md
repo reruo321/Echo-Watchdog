@@ -34,6 +34,7 @@ Pops `routine` and optionally executes it if the argument is nonzero.
 
 ### Key Input Detection
 #### User Text Input
+The program gets every user text input line with a command line prompt.
 ```
 fgets(input_line, MAX_LEN + 1, stdin)
 ```
