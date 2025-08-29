@@ -40,3 +40,4 @@ fgets(input_line, MAX_LEN + 1, stdin)
 ```
 
 #### User Key Press
+The program can detect any user key press with `detect_keypress`, only if the user is `root`.
