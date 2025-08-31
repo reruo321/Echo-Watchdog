@@ -37,4 +37,4 @@ Pops `routine` and optionally executes it if the argument is nonzero.
 The program gets every user text input line with a command line prompt, using `fgets()`.
 
 #### User Key Press
-The program can detect any user key press with `detect_keypress()`, only if the user is `root`.
+The program can detect any user key press with `detect_keypress()`, only if the user is `root`. It requires the root privileges because it reads the keyboard input events from /dev.
